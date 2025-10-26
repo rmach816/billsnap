@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BillSnap Support - Get help with your bill tracking app">
+    <title>Support - BillSnap</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .support-container {
+            max-width: 900px;
+            margin: 100px auto 4rem;
+            padding: 2rem;
+        }
+        .support-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .support-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .support-header p {
+            font-size: 1.25rem;
+            color: var(--text-light);
+        }
+        .contact-card {
+            background: white;
+            padding: 3rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow-md);
+            margin-bottom: 3rem;
+        }
+        .contact-methods {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        .contact-method {
+            text-align: center;
+            padding: 2rem;
+            background: var(--bg-light);
+            border-radius: 8px;
+        }
+        .contact-method-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .contact-method h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+        .contact-method a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .contact-method a:hover {
+            text-decoration: underline;
+        }
+        .faq-section {
+            margin-top: 4rem;
+        }
+        .faq-item {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            box-shadow: var(--shadow-sm);
+        }
+        .faq-question {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+        .faq-answer {
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+        .faq-answer ul {
+            margin-top: 0.5rem;
+            padding-left: 2rem;
+        }
+        .faq-answer li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 0.5rem;">
+                    <span class="logo-icon">📸</span>
+                    <span class="logo-text">BillSnap</span>
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html#features">Features</a>
+                <a href="index.html#pricing">Pricing</a>
+                <a href="privacy.html">Privacy</a>
+                <a href="terms.html">Terms</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Support Content -->
+    <div class="support-container">
+        <div class="support-header">
+            <h1>How Can We Help?</h1>
+            <p>We're here to answer your questions and resolve any issues</p>
+        </div>
+
+        <div class="contact-card">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Contact Us</h2>
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <div class="contact-method-icon">✉️</div>
+                    <h3>Email Support</h3>
+                    <p style="color: var(--text-light); margin-bottom: 1rem;">Get help via email</p>
+                    <a href="mailto:help@billsnap.online">help@billsnap.online</a>
+                    <p style="font-size: 0.875rem; color: var(--text-light); margin-top: 0.5rem;">Response within 48 hours</p>
+                </div>
+
+                <div class="contact-method">
+                    <div class="contact-method-icon">🌐</div>
+                    <h3>Website</h3>
+                    <p style="color: var(--text-light); margin-bottom: 1rem;">Visit our website</p>
+                    <a href="https://billsnap.online">billsnap.online</a>
+                    <p style="font-size: 0.875rem; color: var(--text-light); margin-top: 0.5rem;">Latest updates & info</p>
+                </div>
+            </div>
+
+            <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px; text-align: center;">
+                <p style="color: var(--text-light);"><strong>When contacting support, please include:</strong></p>
+                <ul style="list-style: none; padding: 0; margin-top: 1rem; color: var(--text-light);">
+                    <li>📱 Device model and OS version</li>
+                    <li>📋 App version (found in Settings)</li>
+                    <li>📝 Detailed description of the issue</li>
+                    <li>📸 Screenshots if applicable</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div id="faq" class="faq-section">
+            <h2 style="text-align: center; font-size: 2rem; margin-bottom: 2rem;">Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">❓ How do I add a bill?</div>
+                <div class="faq-answer">
+                    <p>Adding a bill is simple:</p>
+                    <ul>
+                        <li>Tap the "+" button on the home screen</li>
+                        <li>Choose to take a photo, import from gallery, or enter manually</li>
+                        <li>The app will automatically extract bill details using OCR</li>
+                        <li>Review and confirm the information</li>
+                        <li>Tap "Save" to add the bill</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">❓ Is my data safe and private?</div>
+                <div class="faq-answer">
+                    <p><strong>Absolutely!</strong> Your privacy is our top priority:</p>
+                    <ul>
+                        <li>All data is stored locally on your device only</li>
+                        <li>No cloud storage or servers involved</li>
+                        <li>We never see or access your bill information</li>
+                        <li>No tracking, no analytics, no data collection</li>
+                        <li>Optional biometric lock (Face ID/Touch ID) for extra security</li>
+                    </ul>
+                    <p>Read our full <a href="privacy.html">Privacy Policy</a> for details.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">❓ How accurate is the OCR scanning?</div>
+                <div class="faq-answer">
+                    <p>Our OCR technology is highly accurate (90%+ success rate), but results depend on:</p>
+                    <ul>
+                        <li><strong>Photo Quality:</strong> Good lighting and focus improve accuracy</li>
+                        <li><strong>Bill Format:</strong> Clear, printed text works best</li>
+                        <li><strong>Language:</strong> Optimized for English text</li>
+                    </ul>
+                    <p><strong>Tip:</strong> Always review extracted information before saving. You can easily edit any field if needed.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">❓ What's the difference between Free and Premium?</div>
+                <div class="faq-answer">
+                    <table style="width: 100%; margin-top: 1rem; border-collapse: collapse;">
+                        <tr style="background: var(--bg-light);">
+                            <th style="padding: 0.75rem; text-align: left;">Feature</th>
+                            <th style="padding: 0.75rem; text-align: center;">Free</th>
+                            <th style="padding: 0.75rem; text-align: center;">Premium</th>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color);">Active Bills</td>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color); text-align: center;">5 bills</td>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color); text-align: center;">Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color);">OCR Scanning</td>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color); text-align: center;">✅</td>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color); text-align: center;">✅</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color);">Reminders</td>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color); text-align: center;">✅</td>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color); text-align: center;">✅</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color);">Recurring Bills</td>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color); text-align: center;">❌</td>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color); text-align: center;">✅</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color);">Calendar View</td>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color); text-align: center;">❌</td>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color); text-align: center;">✅</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color);">PDF Upload</td>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color); text-align: center;">❌</td>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color); text-align: center;">✅</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color);">Export & Backup</td>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color); text-align: center;">❌</td>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color); text-align: center;">✅</td>
+                        </tr>
+                        <tr style="background: var(--bg-light); font-weight: 600;">
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color);">Price</td>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color); text-align: center;">$0</td>
+                            <td style="padding: 0.75rem; border-top: 1px solid var(--border-color); text-align: center;">$2.99/mo</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">❓ How do I cancel my Premium subscription?</div>
+                <div class="faq-answer">
+                    <p><strong>For iOS (iPhone/iPad):</strong></p>
+                    <ul>
+                        <li>Open Settings app</li>
+                        <li>Tap your name at the top</li>
+                        <li>Tap "Subscriptions"</li>
+                        <li>Select BillSnap Premium</li>
+                        <li>Tap "Cancel Subscription"</li>
+                    </ul>
+                    <p><strong>For Android:</strong></p>
+                    <ul>
+                        <li>Open Google Play Store</li>
+                        <li>Tap Menu → Subscriptions</li>
+                        <li>Select BillSnap Premium</li>
+                        <li>Tap "Cancel Subscription"</li>
+                    </ul>
+                    <p>Your subscription will remain active until the end of the current billing period.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">❓ How do I backup my data?</div>
+                <div class="faq-answer">
+                    <p><strong>Premium users can export data:</strong></p>
+                    <ul>
+                        <li>Go to Settings in the app</li>
+                        <li>Tap "Export Data"</li>
+                        <li>Choose a location to save the backup file</li>
+                        <li>The file includes all bill data (JSON format)</li>
+                    </ul>
+                    <p><strong>To restore from backup:</strong></p>
+                    <ul>
+                        <li>Go to Settings → "Import Data"</li>
+                        <li>Select your backup file</li>
+                        <li>Confirm the import</li>
+                    </ul>
+                    <p><strong>Free users:</strong> Upgrade to Premium to access backup features, or manually note down your important bills.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">❓ I'm not receiving bill reminders. What should I do?</div>
+                <div class="faq-answer">
+                    <p>Check these settings:</p>
+                    <ul>
+                        <li><strong>App Permissions:</strong> Ensure BillSnap has notification permission in device settings</li>
+                        <li><strong>Do Not Disturb:</strong> Make sure your device isn't in Do Not Disturb mode</li>
+                        <li><strong>Due Date:</strong> Reminders are sent 3 days before the due date</li>
+                        <li><strong>Battery Optimization:</strong> Disable battery optimization for BillSnap (Android)</li>
+                        <li><strong>Background App Refresh:</strong> Enable for BillSnap (iOS)</li>
+                    </ul>
+                    <p>If issues persist, contact us at <a href="mailto:help@billsnap.online">help@billsnap.online</a></p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">❓ Can I use BillSnap on multiple devices?</div>
+                <div class="faq-answer">
+                    <p>Currently, BillSnap stores all data locally on each device:</p>
+                    <ul>
+                        <li><strong>Premium Subscription:</strong> Can be used on multiple devices with the same Apple ID or Google account</li>
+                        <li><strong>Data Sync:</strong> Not currently available (data stays on each device)</li>
+                        <li><strong>Workaround:</strong> Use Export/Import to manually transfer data between devices</li>
+                    </ul>
+                    <p>Cloud sync is a feature we're considering for future updates!</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">❓ What happens to my data if I uninstall the app?</div>
+                <div class="faq-answer">
+                    <p><strong>⚠️ Important:</strong> All your bill data and photos will be permanently deleted when you uninstall BillSnap.</p>
+                    <ul>
+                        <li>Data is stored locally on your device only</li>
+                        <li>We don't have backup copies (privacy-first design)</li>
+                        <li><strong>Before uninstalling:</strong> Export your data if you're a Premium user</li>
+                        <li>Take screenshots of important bills as backup</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">❓ Do you support multiple currencies?</div>
+                <div class="faq-answer">
+                    <p>Yes! BillSnap supports various currencies:</p>
+                    <ul>
+                        <li>USD ($), EUR (€), GBP (£), CAD ($), AUD ($), and more</li>
+                        <li>Set your preferred currency in Settings</li>
+                        <li>OCR automatically detects currency symbols</li>
+                        <li>Manual entry supports any currency</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">❓ Can I categorize my bills?</div>
+                <div class="faq-answer">
+                    <p>Yes! BillSnap includes common bill categories:</p>
+                    <ul>
+                        <li>Electric</li>
+                        <li>Water</li>
+                        <li>Gas</li>
+                        <li>Internet</li>
+                        <li>Phone</li>
+                        <li>Cable/TV</li>
+                        <li>Rent/Mortgage</li>
+                        <li>Insurance</li>
+                        <li>Credit Card</li>
+                        <li>Other (custom)</li>
+                    </ul>
+                    <p>Assign categories when adding or editing bills for better organization.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">❓ How do I report a bug or request a feature?</div>
+                <div class="faq-answer">
+                    <p>We love hearing from our users!</p>
+                    <ul>
+                        <li><strong>Bug Reports:</strong> Email <a href="mailto:help@billsnap.online">help@billsnap.online</a> with details</li>
+                        <li><strong>Feature Requests:</strong> Send suggestions to the same email</li>
+                        <li><strong>App Store Reviews:</strong> Leave feedback (but email us for technical issues)</li>
+                    </ul>
+                    <p>Your feedback helps us improve BillSnap for everyone!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Still Need Help Section -->
+        <div style="background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); color: white; padding: 3rem; border-radius: 12px; text-align: center; margin-top: 3rem;">
+            <h2 style="margin-bottom: 1rem; color: white;">Still Need Help?</h2>
+            <p style="font-size: 1.125rem; margin-bottom: 2rem; opacity: 0.9;">Our support team is here for you</p>
+            <a href="mailto:help@billsnap.online" style="display: inline-block; background: white; color: var(--primary-color); padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600;">Contact Support</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="logo-icon">📸</span>
+                    <span class="logo-text">BillSnap</span>
+                </div>
+                <p>Snap. Scan. Done.</p>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Product</h4>
+                    <a href="index.html#features">Features</a>
+                    <a href="index.html#how-it-works">How It Works</a>
+                    <a href="index.html#pricing">Pricing</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <a href="support.html">Contact Us</a>
+                    <a href="support.html#faq">FAQ</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 BillSnap. All rights reserved.</p>
+            <p>Contact: <a href="mailto:help@billsnap.online">help@billsnap.online</a></p>
+        </div>
+    </footer>
+</body>
+</html>
+
