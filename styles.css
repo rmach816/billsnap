@@ -266,6 +266,11 @@ header {
 .feature-icon {
     font-size: 3rem;
     margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.feature-icon i {
+    display: block;
 }
 
 .feature-card h3 {
@@ -404,6 +409,18 @@ header {
 .pricing-features li {
     padding: 0.75rem 0;
     border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.pricing-features li i {
+    color: var(--success-color);
+    flex-shrink: 0;
+}
+
+.pricing-features li .fa-star {
+    color: #fbbf24;
 }
 
 .pricing-features li:last-child {
@@ -494,6 +511,7 @@ footer {
         grid-template-columns: 1fr;
         gap: 2rem;
         padding: 2rem 1rem;
+        min-height: auto;
     }
     
     .hero-title {
@@ -502,6 +520,10 @@ footer {
     
     .hero-subtitle {
         font-size: 1.5rem;
+    }
+    
+    .hero-description {
+        font-size: 1.125rem;
     }
     
     .nav-links {
@@ -513,9 +535,94 @@ footer {
         font-size: 2rem;
     }
     
+    .section-subtitle {
+        font-size: 1.125rem;
+    }
+    
     .footer-container {
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+    
+    .footer-links {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+    
+    .phone-mockup {
+        width: 250px;
+        height: 500px;
+    }
+    
+    .store-badge img {
+        height: 45px;
+    }
+    
+    .pricing-cards {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .steps {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .store-badge {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .store-badge img {
+        height: 40px;
+    }
+    
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav-container {
+        padding: 0 1rem;
+    }
+    
+    .nav-links {
+        gap: 0.75rem;
+        font-size: 0.8125rem;
+    }
+    
+    .logo-text {
+        font-size: 1.25rem;
+    }
+    
+    .logo-image {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.25rem;
+    }
+    
+    .section-title {
+        font-size: 1.75rem;
     }
     
     .footer-links {
@@ -523,19 +630,8 @@ footer {
     }
     
     .phone-mockup {
-        width: 250px;
-        height: 500px;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-buttons {
-        flex-direction: column;
-    }
-    
-    .btn {
-        width: 100%;
-        text-align: center;
+        width: 220px;
+        height: 440px;
     }
 }
 
