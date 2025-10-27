@@ -55,6 +55,12 @@ header {
     font-size: 1.5rem;
 }
 
+.logo-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
 .logo-icon {
     font-size: 1.75rem;
 }
@@ -122,6 +128,17 @@ header {
     gap: 1rem;
     flex-wrap: wrap;
     margin-bottom: 1rem;
+}
+
+.store-badge img {
+    height: 50px;
+    width: auto;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.store-badge:hover img {
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 
 .hero-note {
@@ -304,9 +321,9 @@ header {
 
 .pricing-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -326,6 +343,25 @@ header {
 
 .pricing-card-featured {
     border: 2px solid var(--primary-color);
+}
+
+.pricing-card-best-value {
+    border: 2px solid var(--success-color);
+}
+
+.best-value-badge {
+    background: var(--success-color);
+}
+
+.savings-badge {
+    background: #fef3c7;
+    color: #92400e;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 .popular-badge {
