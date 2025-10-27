@@ -173,6 +173,27 @@ header {
     text-align: center;
 }
 
+/* App Screenshot */
+.app-screenshot {
+    max-width: 350px;
+    margin: 0 auto;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.app-screenshot:hover {
+    transform: translateY(-10px);
+}
+
+.screenshot-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 30px;
+}
+
 /* Buttons */
 .btn {
     display: inline-block;
@@ -317,6 +338,45 @@ header {
 
 .step p {
     color: var(--text-light);
+}
+
+/* Screenshots Section */
+.screenshots-section {
+    background: var(--bg-light);
+}
+
+.screenshots-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.screenshot-item {
+    text-align: center;
+}
+
+.screenshot-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 0 auto;
+    display: block;
+}
+
+.screenshot-item img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.screenshot-caption {
+    margin-top: 1rem;
+    color: var(--text-dark);
+    font-weight: 500;
+    font-size: 1.125rem;
 }
 
 /* Pricing Section */
@@ -554,6 +614,10 @@ footer {
         height: 500px;
     }
     
+    .app-screenshot {
+        max-width: 280px;
+    }
+    
     .store-badge img {
         height: 45px;
     }
@@ -632,6 +696,10 @@ footer {
     .phone-mockup {
         width: 220px;
         height: 440px;
+    }
+    
+    .app-screenshot {
+        max-width: 240px;
     }
 }
 
