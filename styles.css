@@ -146,6 +146,18 @@ header {
     font-size: 0.875rem;
 }
 
+.hero-badge {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 1rem;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
 /* Phone Mockup */
 .phone-mockup {
     width: 300px;
@@ -302,6 +314,114 @@ header {
 
 .feature-card p {
     color: var(--text-light);
+}
+
+/* International Support Section */
+.international-support {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 4rem 0;
+}
+
+.international-support .section-title,
+.international-support .section-subtitle {
+    color: white;
+}
+
+.international-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.international-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.international-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.international-card h3 i {
+    margin-right: 0.5rem;
+    color: #fbbf24;
+}
+
+.language-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.language-item {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.currency-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.currency-badge {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.international-note {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.international-highlight {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.international-highlight p {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.international-highlight strong {
+    color: #fbbf24;
+}
+
+@media (max-width: 768px) {
+    .international-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .language-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .currency-grid {
+        justify-content: center;
+    }
 }
 
 /* How It Works Section */
