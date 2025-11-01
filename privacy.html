@@ -90,7 +90,7 @@
     <div class="legal-container">
         <div class="legal-header">
             <h1>Privacy Policy</h1>
-            <p class="last-updated">Last Updated: October 26, 2025</p>
+            <p class="last-updated">Last Updated: November 1, 2025</p>
         </div>
 
         <div class="legal-content">
@@ -99,17 +99,28 @@
                 <p><strong>BillSnap is built with your privacy as the top priority. All your data is stored locally on your device. We do not collect, store, or transmit your personal information or bill data to any servers.</strong></p>
             </div>
 
-            <h2>1. Information We Do NOT Collect</h2>
+            <h2>1. Data Collection Summary</h2>
+            <h3>❌ What We Do NOT Collect</h3>
             <p>Unlike most apps, BillSnap does NOT collect or access:</p>
             <ul>
                 <li>Your bill photos or images</li>
                 <li>Bill amounts, due dates, or payment information</li>
                 <li>Personal financial data</li>
-                <li>User behavior or analytics data</li>
+                <li>User behavior or analytics data for advertising</li>
                 <li>Device identifiers for tracking</li>
                 <li>Location data</li>
-                <li>Contact information (except support emails you send us)</li>
+                <li>Browsing history</li>
             </ul>
+
+            <h3>✅ What We Do Collect (Minimal & Necessary)</h3>
+            <p>We only collect the minimum data required for app functionality:</p>
+            <ul>
+                <li><strong>Subscription Status:</strong> If you purchase Premium, Apple/Google shares transaction verification data with us (transaction ID, purchase date, subscription status)</li>
+                <li><strong>Support Communications:</strong> Your email address and messages when you contact us</li>
+            </ul>
+
+            <h3>🔒 Your Bill Data Stays Private</h3>
+            <p><strong>Important:</strong> All your bills, photos, and financial information stay on YOUR device. We never see it, never store it on servers, never share it. Only subscription verification data is exchanged with Apple/Google for Premium feature access.</p>
 
             <h2>2. Data Storage</h2>
             <h3>Local Storage Only</h3>
@@ -177,7 +188,17 @@
             <ul>
                 <li><strong>iOS:</strong> Apple App Store handles all payments</li>
                 <li><strong>Android:</strong> Google Play Store handles all payments</li>
-                <li><strong>Our Access:</strong> We only receive anonymous subscription status, not payment details</li>
+                <li><strong>Our Access:</strong> We receive subscription verification data from Apple/Google:
+                    <ul>
+                        <li>Transaction ID (anonymous identifier)</li>
+                        <li>Purchase date and expiry date</li>
+                        <li>Subscription status (active, expired, cancelled)</li>
+                        <li>Product ID (monthly vs annual)</li>
+                    </ul>
+                </li>
+                <li><strong>What We DON'T Get:</strong> Credit card numbers, billing addresses, payment methods, or other payment details</li>
+                <li><strong>Purpose:</strong> This data is only used to verify your premium subscription status and unlock features</li>
+                <li><strong>Storage:</strong> Purchase verification tokens stored locally on your device</li>
             </ul>
 
             <h3>No Analytics or Tracking</h3>
@@ -190,16 +211,35 @@
             <h2>6. Children's Privacy</h2>
             <p>BillSnap is intended for users 18 years and older. We do not knowingly collect information from children under 13 (or 16 in certain jurisdictions). If you are a parent or guardian and believe your child has provided us with personal information, please contact us at <a href="mailto:help@billsnap.online">help@billsnap.online</a>.</p>
 
-            <h2>7. Data Security</h2>
+            <h2>7. Network Communication</h2>
+            <p>BillSnap operates primarily offline, with your bill data stored locally. However, the app does communicate over the network for limited purposes:</p>
+            <ul>
+                <li><strong>Subscription Verification:</strong> Validating premium subscription status with Apple/Google servers (encrypted HTTPS connection)</li>
+                <li><strong>In-App Purchases:</strong> Processing subscription purchases through Apple/Google (handled by app stores, not us)</li>
+                <li><strong>App Updates:</strong> Checking for new app versions (standard app store behavior)</li>
+            </ul>
+            <p><strong>Critical Privacy Protection:</strong> Your personal bill data (photos, amounts, due dates) is NEVER transmitted over the network. Only subscription verification tokens are communicated with app stores.</p>
+
+            <h2>8. Data Security</h2>
             <p>We implement appropriate security measures to protect your data:</p>
             <ul>
-                <li><strong>Local Encryption:</strong> Data stored on device is encrypted</li>
-                <li><strong>Secure Coding:</strong> Following industry best practices</li>
-                <li><strong>No Network Transmission:</strong> Since data stays on device, no network vulnerabilities</li>
-                <li><strong>Biometric Protection:</strong> Optional Face ID/Touch ID for additional security</li>
+                <li><strong>Local Encryption:</strong> All bill data stored on device is encrypted</li>
+                <li><strong>Encrypted Transit:</strong> All network communications use HTTPS/TLS encryption</li>
+                <li><strong>Secure Coding:</strong> Following industry best practices (OWASP Mobile guidelines)</li>
+                <li><strong>Biometric Protection:</strong> Optional Face ID/Touch ID/Fingerprint for additional security</li>
+                <li><strong>No Third-Party Tracking:</strong> No advertising SDKs or analytics trackers</li>
             </ul>
 
-            <h2>8. Your Rights</h2>
+            <h2>9. Data Retention</h2>
+            <p>How long we keep your data:</p>
+            <ul>
+                <li><strong>Bill Data:</strong> Stored locally on your device until you delete it (we have no access to this)</li>
+                <li><strong>Subscription Data:</strong> Retained as long as your subscription is active, plus 2 years for financial records</li>
+                <li><strong>Support Communications:</strong> Kept for up to 2 years to help with ongoing issues</li>
+                <li><strong>Deleted Data:</strong> When you delete data from the app or uninstall, it's immediately removed from your device</li>
+            </ul>
+
+            <h2>10. Your Rights</h2>
             <p>Under various privacy laws (GDPR, CCPA, etc.), you have rights regarding your data. Since BillSnap stores all data locally on your device, you have full control:</p>
             <ul>
                 <li><strong>Right to Access:</strong> You can view all your data in the app</li>
@@ -209,7 +249,7 @@
                 <li><strong>No Data Sale:</strong> We don't collect data, so we don't (and can't) sell it</li>
             </ul>
 
-            <h2>9. International Users</h2>
+            <h2>11. International Users</h2>
             <p>BillSnap is designed to work worldwide with full privacy protection:</p>
             <ul>
                 <li><strong>GDPR Compliance (EU):</strong> Full compliance since no data is collected or transmitted</li>
@@ -217,7 +257,7 @@
                 <li><strong>Other Jurisdictions:</strong> Local-only storage respects all privacy laws</li>
             </ul>
 
-            <h2>10. Support Communications</h2>
+            <h2>12. Support Communications</h2>
             <p>When you contact our support team:</p>
             <ul>
                 <li><strong>Email Address:</strong> We collect your email to respond to support requests</li>
@@ -227,7 +267,7 @@
                 <li><strong>Not Shared:</strong> Support data is never shared with third parties</li>
             </ul>
 
-            <h2>11. App Updates and Changes</h2>
+            <h2>13. App Updates and Changes</h2>
             <p>We may update this Privacy Policy from time to time. Changes will be effective when:</p>
             <ul>
                 <li>Posted on this page with a new "Last Updated" date</li>
@@ -236,7 +276,7 @@
             </ul>
             <p>Continued use of the app after changes indicates acceptance of the updated policy.</p>
 
-            <h2>12. California Privacy Rights</h2>
+            <h2>14. California Privacy Rights</h2>
             <p>California residents have specific rights under the CCPA:</p>
             <ul>
                 <li><strong>Right to Know:</strong> We don't collect personal information beyond what's stored locally on your device</li>
@@ -245,10 +285,10 @@
                 <li><strong>Non-Discrimination:</strong> All users have the same features regardless of privacy choices</li>
             </ul>
 
-            <h2>13. Do Not Track</h2>
+            <h2>15. Do Not Track</h2>
             <p>BillSnap does not track users, so "Do Not Track" browser settings are not applicable. We don't track you in the first place.</p>
 
-            <h2>14. Data Breach Notification</h2>
+            <h2>16. Data Breach Notification</h2>
             <p>Because all data is stored locally on your device and never transmitted to our servers, the risk of a data breach on our end is zero. However, we recommend:</p>
             <ul>
                 <li>Use device passcode/biometric authentication</li>
@@ -257,7 +297,7 @@
                 <li>Regularly backup your data using the export feature</li>
             </ul>
 
-            <h2>15. Contact Us</h2>
+            <h2>17. Contact Us</h2>
             <p>If you have questions or concerns about this Privacy Policy or our privacy practices:</p>
             <ul>
                 <li><strong>Email:</strong> <a href="mailto:help@billsnap.online">help@billsnap.online</a></li>
@@ -270,7 +310,7 @@
                 <p><strong>Your bills, your data, your device, your control.</strong> BillSnap will never have access to your financial information because we've built the app to work entirely offline. This isn't just good privacy practice – it's our core value.</p>
             </div>
 
-            <h2>16. App Store and Google Play Requirements</h2>
+            <h2>18. App Store and Google Play Requirements</h2>
             <p>This privacy policy meets the requirements of:</p>
             <ul>
                 <li>Apple App Store Review Guidelines (Section 5.1.1)</li>
