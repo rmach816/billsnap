@@ -58,7 +58,7 @@ This document summarizes all SEO optimizations implemented for the BillSnap webs
 - Canonical URL
 - Optimized for privacy-related searches
 
-#### Terms of Service (terms.html)
+#### Terms of Use (terms.html)
 - Proper meta tags for legal content
 - Canonical URL
 - Optimized for terms-related searches

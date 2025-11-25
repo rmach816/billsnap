@@ -24,7 +24,7 @@ Your BillSnap landing page has been created and pushed to GitHub at:
    - Privacy-first messaging highlighting local-only data storage
    - Publicly accessible URL requirement met
 
-3. **terms.html** - Complete Terms of Service including:
+3. **terms.html** - Complete Terms of Use including:
    - Subscription terms
    - Refund policy
    - User rights and responsibilities
@@ -96,7 +96,7 @@ After DNS propagates (15 minutes to 24 hours):
 
 - **Main Site:** https://billsnap.online
 - **Privacy Policy:** https://billsnap.online/privacy.html
-- **Terms of Service:** https://billsnap.online/terms.html
+- **Terms of Use:** https://billsnap.online/terms.html
 - **Support:** https://billsnap.online/support.html
 
 ## ✅ App Store Requirements Met
@@ -113,7 +113,7 @@ After DNS propagates (15 minutes to 24 hours):
 ✅ Privacy Policy URL: https://billsnap.online/privacy.html
 ✅ Contact information: help@billsnap.online
 ✅ Support website: https://billsnap.online/support.html
-✅ Terms of Service: https://billsnap.online/terms.html
+✅ Terms of Use: https://billsnap.online/terms.html
 ✅ Describes permissions and data usage
 
 ## 📱 Update App Store Listings
@@ -159,7 +159,7 @@ Before going live, test:
 - ✅ All links work (internal and email links)
 - ✅ Mobile responsiveness (test on phone)
 - ✅ Privacy policy is accessible
-- ✅ Terms of service is accessible
+- ✅ Terms of Use is accessible
 - ✅ Support email link works (mailto:help@billsnap.online)
 - ✅ Navigation works across all pages
 - ✅ No broken images or styling issues

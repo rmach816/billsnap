@@ -10,7 +10,7 @@ Official landing page for BillSnap - A bill tracking app with AI-powered OCR sca
 
 - **index.html** - Main landing page with features, pricing, and downloads
 - **privacy.html** - Privacy Policy (App Store & Google Play compliant)
-- **terms.html** - Terms of Service
+- **terms.html** - Terms of Use
 - **support.html** - Support & FAQ page
 
 ## Features
@@ -38,7 +38,7 @@ This website is designed to be deployed on GitHub Pages:
 ## Requirements Met
 
 ✅ Privacy Policy with publicly accessible URL  
-✅ Terms of Service with publicly accessible URL  
+✅ Terms of Use with publicly accessible URL  
 ✅ Support/Contact page  
 ✅ Responsive mobile design  
 ✅ Professional branding  

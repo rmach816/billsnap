@@ -34,7 +34,7 @@ Your professional BillSnap landing page is now live on GitHub and ready to deplo
 - Explains all permissions clearly
 - No data collection messaging
 
-### 3. Terms of Service (terms.html)
+### 3. Terms of Use (terms.html)
 - Subscription terms ($2.99/month Premium)
 - Refund policy
 - Apple & Google-specific terms
@@ -111,7 +111,7 @@ Add these A records for `billsnap.online`:
 ### Google Requirements:
 ✅ Privacy Policy with public URL
 ✅ Support email address
-✅ Terms of Service
+✅ Terms of Use
 ✅ Describes permissions and data usage
 ✅ Contact information easily accessible
 ✅ Refund policy clearly stated
@@ -145,7 +145,7 @@ Add these A records for `billsnap.online`:
 website/
 ├── index.html          # Landing page
 ├── privacy.html        # Privacy Policy ⭐
-├── terms.html          # Terms of Service ⭐
+├── terms.html          # Terms of Use ⭐
 ├── support.html        # Support & FAQ ⭐
 ├── styles.css          # All styling
 ├── 404.html            # Error page
